@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+*,*::before,*::after{
+  margin:0;
+  padding:0;
+  box-sizing:border-box
+}
+* {
+    margin: 0;   /*PER METTERE TUTTO INSIEME VICINO*/
+    padding: 0;  /*PER METTERE TUTTO INSIEME VICINO*/
+    box-sizing: border-box;
+}
+
+body {
+
+background-color: hsl(212, 45%, 89%);
+}
+
+.qrcode {
+  text-align: center;
+  margin-top: 120px;
+  transform: translate(-8%, 0%); /*AGGIUSTA LE COORDINATE DELLA POSIZIONE ASSOLUTA*/
+  font-size: 0; /*PER TOGLIERE SPAZIO TRA FOTO*/
+
+
+}
+.qrcode img {
+  object-position: center;
+  margin-left: 1.6rem;
+  margin-top: 1rem;
+  max-width: 14rem;
+  border-radius: 10px;
+
+}
+
+
+.text {
+/*text-align: center;
+margin-top: 120px;*/
+position: relative;
+display: flex;
+flex-direction: column;
+
+}
+
+main {
+  max-width: 15.5rem;
+  height: 24rem;
+  background-color: white;
+  border-radius: 20px;
+  margin: auto; /*PER CENTRARE LE COSE*/
+  padding-bottom: 40px;
+  padding-left: 6px;
+  padding-right: 6px;
+  box-shadow: 0px 0.5px 20px hsla(220, 15%, 55%, 0.1);
+
+
+}
+main .text{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+
+}
+
+h1{
+  margin-top: 20px;
+  font-family: outfit;
+  font-size: 17px;
+
+}
+
+p {
+  font-family: outfit;
+  font-size: 12px;
+  color:hsl(220, 15%, 55%);
+  margin-top: 0.8em;
+
+}
